@@ -1,0 +1,59 @@
+:root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+  }
+ion-card{
+    background: #FFFFFF;
+    box-shadow: 2px 6px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 1px !important;
+}
+.offert{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background: #FE805C;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+.textContainer{
+    padding: 8px;
+}
+img{
+    height: 160px;
+    width: 100%;
+}
+.tittle{
+    font-size: 12pt;
+    color: #FE805C;
+    width: 100%;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+}
+.subtittle{
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.regular_price{
+    display: inline-block;
+    padding: 5px;
+    text-decoration:line-through;
+    
+}
+.price{
+    display: inline-block;
+    white-space: initial;
+    padding: 5px;
+    font-weight: bold;
+}
